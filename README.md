@@ -8,6 +8,13 @@ Docker を用い、すぐにシステムを実行させることができる。
 
 # SETUP
 
+このリポジトリをクローンする。
+
+```
+git clone https://github.com/macinjoke/toilet_system.git
+cd toilet_system
+```
+
 コンテナ上にAPIサーバーとMySQLを立ち上げる
 ```shell
 $ docker-compose up
