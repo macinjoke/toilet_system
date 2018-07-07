@@ -27,7 +27,7 @@ $ docker-compose exec mysql mysql -u root -D mydb --password=root -e"$(cat db/sq
 
 # USE
 
-以下のURLにアクセスすると x=100, y=200 の位置情報のとき、トイレを近い順に並べて表示される。
+以下のURLにアクセスすると x=100, y=200 の位置情報のとき、トイレを近い順に並べて表示される。(日本語が文字化けするかと思うが時間無いしめんどくさいしなおしていない)
 
 http://localhost/?x=100&y=200
 
