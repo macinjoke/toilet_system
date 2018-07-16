@@ -15,10 +15,7 @@ services:
     build: "./db"
     ports:
       - "3306:3306"
-#    volumes:
-#      - "./redis:/data"
     networks:
       - webnet
-#    command: redis-server
 networks:
   webnet:
